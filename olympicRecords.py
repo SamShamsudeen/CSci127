@@ -1,7 +1,7 @@
 #CSci 127 Teaching Staff
 #FALL 2021
 #A template for a program that returns olympic world records
-#Modified by:  ADD YOUR NAME HERE
+#Modified by:  Sameera Shamsudeen
 
 def worldRecord(gender, event):
      """
@@ -19,14 +19,47 @@ def worldRecord(gender, event):
      
      time = 0.0
      
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
+import pandas as pd 
+def worldRecord(gender, event):     
+        z = str(input(men))
+        t = int(input(‘100’))
+        time = float(input(9.63))
+        return(time,'seconds')
 
-     return(time)
+def worldrecord(gender,event):
+        z = str(input(men))
+        t = int(input(‘200’))
+        time = float(input(19.30))
+        return(time,'seconds')
+
+def worldrecord(gender,event):
+        z = str(input(men))
+        t = int(input(‘400’))
+        time = float(input(43.03))
+        return(time,'seconds')
+
+def worldrecord(gender,event):
+        z = str(input(women))
+        t = int(input(‘100’))
+        time = float(input(10.62))
+        return(time,'seconds')
+
+def worldrecord(gender,event):
+        z = str(input(women))
+        t = int(input(‘200’))
+        time = float(input(21.34))
+        return(time,'seconds')
+
+def worldrecord(gender,event):
+        z = str(input(women))
+        t = int(input(‘400’))
+        time = float(input(48.25))
+        return(time,'seconds')
+
+else:
+        return -1
+
+
 
 def main():
      z = input('Enter the gender: ').lower()
